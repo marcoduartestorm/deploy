@@ -66,58 +66,58 @@ public class ApiControllerEmissao {
     	    	} else if(apiDtoEmissao.getTipoEmissao().equalsIgnoreCase("energiaeletrica")) {
     	    		List<ApiModelFatoresEnergiaEletrica> apiModelFatoresEnergiaEletrica = apiServiceFatoresEnergiaEletrica.findAll();
     	    		for(ApiModelFatoresEnergiaEletrica e : apiModelFatoresEnergiaEletrica) {
-    	    			if(str.equalsIgnoreCase("janeiro")) {
+    	    			if(str.equalsIgnoreCase("01")) {
     	    				fator = Float.parseFloat(e.getJaneiro());
-    	        		} else if(str.equalsIgnoreCase("fevereiro")) {
+    	        		} else if(str.equalsIgnoreCase("02")) {
     	        			fator = Float.parseFloat(e.getFevereiro());
-    	        		} else if(str.equalsIgnoreCase("março")) {
+    	        		} else if(str.equalsIgnoreCase("03")) {
     	        			fator = Float.parseFloat(e.getMarco());
-    	        		} else if(str.equalsIgnoreCase("abril")) {
+    	        		} else if(str.equalsIgnoreCase("04")) {
     	        			fator = Float.parseFloat(e.getAbril());
-    	        		}else if(str.equalsIgnoreCase("maio")) {
+    	        		}else if(str.equalsIgnoreCase("05")) {
     	        			fator = Float.parseFloat(e.getMaio());
-    	        		}else if(str.equalsIgnoreCase("junho")) {
+    	        		}else if(str.equalsIgnoreCase("06")) {
     	        			fator = Float.parseFloat(e.getJunho());
-    	        		}else if(str.equalsIgnoreCase("julho")) {
+    	        		}else if(str.equalsIgnoreCase("07")) {
     	        			fator = Float.parseFloat(e.getJulho());
-    	        		}else if(str.equalsIgnoreCase("agosto")) {
+    	        		}else if(str.equalsIgnoreCase("08")) {
     	        			fator = Float.parseFloat(e.getAgosto());
-    	        		}else if(str.equalsIgnoreCase("setembro")) {
+    	        		}else if(str.equalsIgnoreCase("09")) {
     	        			fator = Float.parseFloat(e.getSetembro());
-    	        		}else if(str.equalsIgnoreCase("outubro")) {
+    	        		}else if(str.equalsIgnoreCase("10")) {
     	        			fator = Float.parseFloat(e.getOutubro());
-    	        		}else if(str.equalsIgnoreCase("novembro")) {
+    	        		}else if(str.equalsIgnoreCase("11")) {
     	        			fator = Float.parseFloat(e.getNovembro());
-    	        		}else if(str.equalsIgnoreCase("dezembro")) {
+    	        		}else if(str.equalsIgnoreCase("12")) {
     	        			fator = Float.parseFloat(e.getDezembro());
     	        		}
     	    		}
     	    	} else if(apiDtoEmissao.getTipoEmissao().equalsIgnoreCase("residuos")) {
     	    		List<ApiModelFatoresResiduos> apiModelFatoresResiduos = apiServiceFatoresResiduos.findAll();
     	    		for(ApiModelFatoresResiduos e : apiModelFatoresResiduos) {
-    	    			if(str.equalsIgnoreCase("janeiro")) {
+    	    			if(str.equalsIgnoreCase("01")) {
     	    				fator = Float.parseFloat(e.getJaneiro());
-    	        		} else if(str.equalsIgnoreCase("fevereiro")) {
+    	        		} else if(str.equalsIgnoreCase("02")) {
     	        			fator = Float.parseFloat(e.getFevereiro());
-    	        		} else if(str.equalsIgnoreCase("março")) {
+    	        		} else if(str.equalsIgnoreCase("03")) {
     	        			fator = Float.parseFloat(e.getMarco());
-    	        		} else if(str.equalsIgnoreCase("abril")) {
+    	        		} else if(str.equalsIgnoreCase("04")) {
     	        			fator = Float.parseFloat(e.getAbril());
-    	        		}else if(str.equalsIgnoreCase("maio")) {
+    	        		}else if(str.equalsIgnoreCase("05")) {
     	        			fator = Float.parseFloat(e.getMaio());
-    	        		}else if(str.equalsIgnoreCase("junho")) {
+    	        		}else if(str.equalsIgnoreCase("06")) {
     	        			fator = Float.parseFloat(e.getJunho());
-    	        		}else if(str.equalsIgnoreCase("julho")) {
+    	        		}else if(str.equalsIgnoreCase("07")) {
     	        			fator = Float.parseFloat(e.getJulho());
-    	        		}else if(str.equalsIgnoreCase("agosto")) {
+    	        		}else if(str.equalsIgnoreCase("08")) {
     	        			fator = Float.parseFloat(e.getAgosto());
-    	        		}else if(str.equalsIgnoreCase("setembro")) {
+    	        		}else if(str.equalsIgnoreCase("09")) {
     	        			fator = Float.parseFloat(e.getSetembro());
-    	        		}else if(str.equalsIgnoreCase("outubro")) {
+    	        		}else if(str.equalsIgnoreCase("10")) {
     	        			fator = Float.parseFloat(e.getOutubro());
-    	        		}else if(str.equalsIgnoreCase("novembro")) {
+    	        		}else if(str.equalsIgnoreCase("11")) {
     	        			fator = Float.parseFloat(e.getNovembro());
-    	        		}else if(str.equalsIgnoreCase("dezembro")) {
+    	        		}else if(str.equalsIgnoreCase("12")) {
     	        			fator = Float.parseFloat(e.getDezembro());
     	        		}
     	    		}
